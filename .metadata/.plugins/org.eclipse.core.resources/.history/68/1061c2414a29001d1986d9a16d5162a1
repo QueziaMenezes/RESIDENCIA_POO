@@ -1,0 +1,30 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class MediaFacaEnquanto {
+
+	public static void main(String[] args) {
+		Scanner tex = new Scanner(System.in);
+		
+		int nota, totalNotas = 0, media, cont = 1;
+				String disciplina, nome;
+				
+				System.out.println("Digite seu nome: ");
+				nome = tex.nextLine();
+				System.out.println("Digite sua disciplina: ");
+				disciplina = tex.nextLine();
+				
+				do {
+					System.out.println ("Insira a nota " + cont + ": ");
+					nota = tex.nextInt();
+					totalNotas += nota;
+					cont++;
+					
+				}while (cont < 4);{
+					media = totalNotas/3;
+							System.out.println ("\nOlá, " + nome + "\nNa disciplina de " + disciplina + ", sua média é de " + media);
+				 }
+				
+	}
+}

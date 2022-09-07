@@ -1,0 +1,19 @@
+package br.com.residencia.poo.atividadeparacasa;
+
+import java.util.Scanner;
+
+public class AtividadeCasaQuatro {
+	Scanner tex = new Scanner(System.in);
+
+	float tempC, temF;
+	
+	System.out.println  ("Digite a temperatura em Celsius: ");
+	tempC = tex.Float();
+	
+	tempF = (tempC*1.8+32);
+	System.out.println(tempC + "° é equivalente a: " + tempF + "°F");
+		
+
+	}
+
+}

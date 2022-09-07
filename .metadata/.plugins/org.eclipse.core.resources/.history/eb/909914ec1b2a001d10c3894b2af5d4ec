@@ -1,0 +1,19 @@
+package br.com.residencia.poo.casasatividades;
+
+import java.util.Scanner;
+
+public class AtividadeCasaQuatro {
+	public static void main (Double [] args) {
+		
+	Scanner ler = new Scanner(System.in);
+	double tempC, tempF;
+
+	System.out.Println ("Digite a temperatura em Celcius para ser convertida: ");
+	tempC = ler.nextDouble();
+	
+	tempF = (tempC*1.8+32);
+	System.out.println(tempC + "° é equivalente a: " + tempF + "°F");
+		
+	}
+
+}

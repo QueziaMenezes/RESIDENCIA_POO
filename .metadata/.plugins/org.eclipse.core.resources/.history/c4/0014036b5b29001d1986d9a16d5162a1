@@ -1,0 +1,111 @@
+package br.com.residencia.poo.atividadeparacasa;
+
+public class AtividadeCasaTres {
+
+	public static void main(String[] args) {
+		
+		
+	float n1, n2, oper, resultado1, resultado2, resultado3, resultado4;
+
+		
+		escreva("                            DIGITE \n\n1 para SOMAR - 2 para SUBTRAIR - 3 para MULTIPLICAR - 4 para DIVIDIR - 0 para SAIR\n\n")
+		leia(oper)
+		limpa()
+
+		enquanto (oper != 0 e oper != 1 e oper != 2 e oper != 3 e oper != 4){
+			escreva("                      DIGITE UM NÚMERO VÁLIDO \n\n1 para SOMAR - 2 para SUBTRAIR - 3 para MULTIPLICAR - 4 para DIVIDIR - 0 para SAIR\n\n")
+			leia(oper)
+			limpa()
+			
+		}
+		
+		se (oper == 0){
+			escreva("\n\n                VOLTE QUANDO PRECISAR FAZER SUAS CONTAS!!!")
+		u.aguarde(2000)
+	 	limpa()
+	 	inicio()
+	 	
+		}
+		
+		escreva("\nDigite um número: ")
+		leia(n1)
+		escreva("\nDigite outro número: ")
+		leia(n2)
+		
+		limpa()
+
+
+		se (oper == 1){
+			
+		resultado1 = soma(n1, n2)
+		escreva("O resultado da subtração é: ", resultado1)
+		u.aguarde(2000)
+	 	limpa()
+	 	inicio()
+	 	
+		}
+		
+		senao se (oper == 2){
+			
+		resultado2 = subtracao(n1, n2)
+		escreva("O resultado da subtração é: ", resultado2)
+		u.aguarde(2000)
+	 	limpa()
+	 	inicio()
+	 	
+		}
+
+		senao se (oper == 3){
+			
+		resultado3 = multiplicacao(n1, n2)
+		escreva("\nO resultado da multiplicação é: ", resultado3)
+		u.aguarde(2000)
+	 	limpa()
+	 	inicio()
+	 	
+		}
+
+		senao se (oper == 4){
+			
+		se(n2 != 0){
+			
+			resultado4 = divisao(n1, n2)
+		escreva("\nO resultado da divisão é: ", resultado4)
+		u.aguarde(2000)
+	 	limpa()
+	 	inicio()
+		}
+		
+		senao{
+			
+			escreva("\nNão é possivel realizar divisão por 0!")
+			u.aguarde(2000)
+	 		limpa()
+	 		inicio()
+	 		
+		}
+		}
+		}
+		
+		funcao real soma (real a, real b){
+				retorne a + b
+						
+		}
+		
+		funcao real subtracao (real n1, real n2){
+			retorne n1 - n2
+			
+		}
+		
+		funcao real multiplicacao (real n1, real n2){
+			retorne n1 * n2
+			
+		}
+
+		funcao real divisao (real n1, real n2){
+				retorne n1 / n2
+							
+
+	}
+
+}

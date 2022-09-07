@@ -1,0 +1,23 @@
+package br.com.residencia.poo.dinamicadeerros;
+
+import java.util.Scanner;
+
+public class AchoErroDois {   
+	
+
+	
+
+	             public static void main(String[] args) {
+					Scanner ler = new Scanner(System.in);
+					String nome;
+					
+					System.out.println("Escreva seu nome: ");
+					nome = ler.next(); // o correto seria nextLine//
+					
+					System.out.println("Olá, " + nome);
+					
+					// não fechei o scanner //
+					
+	             }
+
+	}

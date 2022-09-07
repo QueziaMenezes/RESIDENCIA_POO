@@ -1,0 +1,18 @@
+package br.com.residencia.poo.aula1;
+
+import java.lang.ref.Cleaner.Cleanable;
+import java.util.Scanner;
+
+public class EscrevaNome {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		String nome;
+		System.out.printf("Escreva seu nome: ");
+		nome = ler.nextLine();
+		System.out.printf("Olá, ",nome);
+
+	}
+
+}

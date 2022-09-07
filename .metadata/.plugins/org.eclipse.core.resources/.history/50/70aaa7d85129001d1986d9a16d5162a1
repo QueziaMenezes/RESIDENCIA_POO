@@ -1,0 +1,25 @@
+package br.com.residencia.poo.atividadeparacasa;
+
+import java.util.Scanner;
+
+public class AtividadeCasaDois {
+
+	public static void main(String[] args) {
+		Scanner tex = new Scanner(System.in);
+		int cont = 1, minhaIdade, idade, totalIdade = 0;
+		
+		System.out.println("Qual é a sua idade? ");
+		idade = tex.nextInt();
+		
+		do {
+			System.out.println ("\nQual é a idade do colega " + cont + "? ");
+			idade = tex.nextInt();
+			totalIdade =+ idade;
+			cont++;
+			
+		}while (cont <= 5);{
+					System.out.println ("\nO tempo de vida meu e dos meus colegas é de: " + totalIdade + " anos.");
+		 }
+	}
+
+}

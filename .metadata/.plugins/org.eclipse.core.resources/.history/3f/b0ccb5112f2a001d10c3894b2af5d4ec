@@ -1,0 +1,10 @@
+package br.com.residencia.poo.casasatividades;
+
+public class AtividadeCasaCinco {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

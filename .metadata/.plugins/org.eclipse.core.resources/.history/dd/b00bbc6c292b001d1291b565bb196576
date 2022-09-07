@@ -1,0 +1,10 @@
+package br.com.residencia.poo.atividades;
+
+public class ExemploTres {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
