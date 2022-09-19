@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="br.com.poo.contas.Conta"/>
+    <fullyQualifiedTypeName name="br.com.residencia.enums.TipoPessoa"/>
+    <fullyQualifiedTypeName name="br.com.residencia.poo.pessoas.Pessoa"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="br.com.residencia.enums.TipoMovimentacao"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
